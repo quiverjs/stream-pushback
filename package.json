@@ -1,0 +1,31 @@
+{
+  "author": {
+    "name": "Soares Chen",
+    "email": "soares.chen@gmail.com",
+    "url": "http://soareschen.com"
+  },
+  "name": "quiver-stream-pushback",
+  "desription": "Push back buffers to the front of a stream",
+  "version": "0.0.1",
+  "homepage": "https://github.com/quiverjs/stream-pushback",
+  "repository": {
+    "url": "git@github.com:quiverjs/stream-pushback.git"
+  },
+  "devDependencies": {
+    "quiver-stream-convert": ">=0.0.6",
+    "mocha": ">=1.8.1",
+    "should": ">=1.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/quiverjs/stream-pushback/issues",
+    "email": "quiverjs@soareschen.com"
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/quiverjs/license/master/LICENSE"
+  },
+  "main": "./lib/stream-pushback",
+  "scripts": {
+    "test": "make test"
+  }
+}
