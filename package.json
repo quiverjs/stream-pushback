@@ -6,7 +6,7 @@
   },
   "name": "quiver-stream-pushback",
   "desription": "Push back buffers to the front of a stream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/quiverjs/stream-pushback",
   "repository": {
     "url": "git@github.com:quiverjs/stream-pushback.git"
