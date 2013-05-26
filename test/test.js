@@ -11,7 +11,7 @@ var pushbackBuffers = ['before1', 'before2']
 describe('stream pushback test', function() {
   it('should emit pushed back buffers first', function(callback) {
     var readStream = streamConvert.buffersToStream(testBuffers)
-    var pushbackStream = streamPushback.createPushbackStream(readStream, pushbackBuffers)
+    var pushbackStream = streamPushback.pushbackStream(readStream, pushbackBuffers)
     streamConvert.streamToBuffers(pushbackStream, function(err, buffers) {
       if(err) throw err
 
